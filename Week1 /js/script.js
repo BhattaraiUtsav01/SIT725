@@ -1,5 +1,5 @@
 function changeText() {
-  var textsArray = ["Text 1", "Text 2", "Text 3", "Text 4", "Text 5"];
+  var textsArray = ["New 1", "New 2", "New 3", "New 4", "New 5"];
   var number = getRandomNumberBetween(0, textsArray.length - 1);
   console.log("Index: ", number);
   document.getElementById("heading").innerHTML = textsArray[number];
